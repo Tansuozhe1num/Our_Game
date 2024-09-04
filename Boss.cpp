@@ -90,6 +90,53 @@ bigBoss::bigBoss(int whatNumber) {
 			exercise = 400;
 		money = 100;
 		break;
+	case 4:
+		name = "∞µ»’¡∂”¸¡˙"£ª
+			number = 4;
+		health = 700£ª
+			defend = 150£ª
+			attack = 150£ª
+
+
+			exercise = 600;
+		money = 200;
+		break;
+	case 5:
+		name = "–°π÷1∫≈"£ª
+			number = 5;
+		health =100 £ª
+			defend = 10£ª
+			attack = 10£ª
+			exercise = 50;
+		money = 10;
+		break;
+	case 6:
+		name = "–°π÷2∫≈"£ª
+			number = 6;
+		health = 100 £ª
+			defend = 10£ª
+			attack = 10£ª
+			exercise = 50;
+		money = 10;
+		break;
+	case 7:
+		name = "–°π÷3∫≈"£ª
+			number = 7;
+		health = 100 £ª
+			defend = 10£ª
+			attack = 10£ª
+			exercise = 50;
+		money = 10;
+		break;
+	case 8:
+		name = "–°π÷4∫≈"£ª
+			number = 8;
+		health = 100 £ª
+			defend = 10£ª
+			attack = 10£ª
+			exercise = 50;
+		money = 10;
+		break;
 	}
 }
 
