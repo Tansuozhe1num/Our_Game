@@ -10,15 +10,22 @@
 #include"Map.h"
 #include"GameManager.h"
 
+#include"Bag.h"
+#include"Store.h"
+#include"Skill.h"
+
 class Player {//主角只有一个
 public://基础数据
-    static Player* my_instance;//实例
+    //static Player* my_instance;//实例
 
     int attack = 5;
     int defendce = 0;
     int miss = 0;
     int accumatulate;
     int HP = 100;
+
+    Bag Playerbag;
+
 
     Weapon* weapon;
     std::map<std::string, bool> Skills;//开一个map记录技能，一开始（一个技能名字对应一个bool,1表示有这个技能，0表示没有这个技能）
